@@ -1,0 +1,29 @@
+.profile__container {
+    width: 120px;
+    height: 120px;
+    margin-top: 3.75px;
+    margin-right: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-sizing: border-box;
+    position:relative;
+    display: inline-block;
+  }
+  
+  /*Расширение от 1024px до 1280px*/
+  
+  /*Расширение от 768px до 1024px*/
+  
+  /*Расширение от 320px до 768px*/
+@media screen and (max-width: 661px) {
+    .profile__container {
+        margin: 0 auto;
+        margin-top: 4px;
+        margin-bottom: 26px;
+    }
+}
+
+.profile__container:hover .profile__overlay {
+    opacity: 1;
+    transition: 1s;
+}

@@ -1,0 +1,27 @@
+.profile__description {
+    max-width: 336px;
+    margin: 0;
+    margin-top: 9px;
+    padding: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    border: none;
+  }
+  
+  /*Расширение от 1024px до 1280px*/
+  
+  /*Расширение от 768px до 1024px*/
+  
+  /*Расширение от 320px до 768px*/
+  @media screen and (max-width: 661px) {
+    .profile__description {
+        max-width: 282px;
+        font-size: 14px;
+        line-height: 16.94px;
+        text-align: center;
+    }  
+  }
