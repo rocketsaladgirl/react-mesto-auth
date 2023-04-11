@@ -13,6 +13,7 @@
 @import url(../src/blocks/header/__link/header__link.css);
 
 /*Блок content, подблок profile*/
+@import url(../src/blocks/content/content.css);
 @import url(../src/blocks/profile/profile.css);
 @import url(../src/blocks/profile/__info/profile__info.css);
 @import url(../src/blocks/profile/__container/profile__container.css);

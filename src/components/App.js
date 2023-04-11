@@ -139,7 +139,7 @@ function App() {
         setInfoTooltip(false);
     };
 
-    const isOpen = isEditAvatarPopupOpen || isEditProfilePopupOpen || isAddPlacePopupOpen || isPopupImageOpen;
+    const isOpen = isEditAvatarPopupOpen || isEditProfilePopupOpen || isAddPlacePopupOpen || isPopupImageOpen || infoTooltip;
 
     React.useEffect(() => {
         function closeAllPopupsByEsc(evt) {
