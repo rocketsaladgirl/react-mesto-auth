@@ -89,25 +89,25 @@ function App() {
 
     //Эффект отвечающий за получение данных пользователя и карточек
     React.useEffect(() => {
-        api.getUserInfo()
-            .then(userInfo => setCurrentUser(userInfo))
-            .catch(err => console.log(err))
+        if (isLoggedIn === true) { //добавлена отправка карточек и пользователя только если авторизация прошла
+            api.getUserInfo()
+                .then(userInfo => setCurrentUser(userInfo))
+                .catch(err => console.log(err))
 
-        api.getCardList()
-            .then(data => {
-                setCards(data.map((card) => ({
-                    name: card.name,
-                    link: card.link,
-                    _id: card._id,
-                    owner: card.owner,
-                    likes: card.likes,
-                    
-                })
-            ))
-        })
-            .catch(err => console.log(err))
-    }, []);
-
+            api.getCardList()
+                .then(data => {
+                    setCards(data.map((card) => ({
+                        name: card.name,
+                        link: card.link,
+                        _id: card._id,
+                        owner: card.owner,
+                        likes: card.likes,
+                    })
+                ))
+            })
+                .catch(err => console.log(err));
+        }    
+    }, [isLoggedIn]);
 
     const handleEditProfileClick = () => {
         setIsEditProfilePopupOpen(true);

@@ -11,22 +11,7 @@
     box-sizing: border-box;
     border: 1px solid #FFF;
     cursor: pointer;
-  }
-  
-  /*Расширение от 1024px до 1280px*/
-  
-  /*Расширение от 768px до 1024px*/
-  
-  /*Расширение от 320px до 768px*/
-  @media screen and (max-width: 661px) {
-    .profile__edit-button {
-        width: 18px;
-        height: 18px;
-        margin-top: 0;
-        align-self: center;
-        background-size: 7.5px, 7.5px;
-    }  
-  }  
+}
 
 .profile__edit-button:hover {
     opacity: 0.6;

@@ -10,26 +10,3 @@
     border: none;
 }
 
-/*Расширение от 1024px до 1280px*/
-@media screen and (max-width: 1270px) {
-    .popup__img-place {
-        width: 433px;
-    }
-}
-
-/*Расширение от 768px до 1024px*/
-@media  screen and (max-width: 978px) {
-    .popup__img-place {
-        max-width: 333px;
-        height: 450px;
-    }
-}
-        
-/*Расширение от 320px до 768px*/
-@media screen and (max-width: 661px) {
-    .popup__img-place {
-        max-width: 240px;
-        height: 299px;
-    }
-}
-

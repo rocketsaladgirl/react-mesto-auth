@@ -11,19 +11,6 @@
     box-sizing: border-box;
     cursor: pointer;
   }
-  
-  /*Расширение от 1024px до 1280px*/
-  
-  /*Расширение от 768px до 1024px*/
-  
-  /*Расширение от 320px до 768px*/
-  @media screen and (max-width: 661px) {
-    .profile__add-button {
-        width: 282px;
-        margin-top: 32px;
-        background-size: 16px, 16px;
-    }
-  }
 
   .profile__add-button:hover {
     opacity: 0.6;

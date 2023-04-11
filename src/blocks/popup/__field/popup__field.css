@@ -10,20 +10,4 @@
     border: none;
 }
 
-/*Расширение от 1024px до 1280px*/
-
-/*Расширение от 768px до 1024px*/
-        
-/*Расширение от 320px до 768px*/
-@media screen and (max-width: 661px) {
-    .popup__field {
-        width: 84.4%;
-        max-width: 238px;
-    }
-}
-
-/*.popup__field:last-of-type {
-    margin-bottom: 0;
-}*/
-
 
