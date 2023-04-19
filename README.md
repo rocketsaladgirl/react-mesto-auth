@@ -18,6 +18,8 @@
 - Открытие фотографии в полном размере;  
 - Авторизация и регистрация пользователей.
 
+С получившимся результатом можно ознакомится по ссылке:  https://rocketsaladgirl.github.io/react-mesto-auth/
+
 ## *Спасибо за внимание!*
 
-![Картинка](https://images.unsplash.com/photo-1589652717521-10c0d092dea9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGNvbXB1dGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60)
+![Картинка](https://kartinki.pibig.info/uploads/posts/2023-04/1680707222_kartinki-pibig-info-p-kot-programmist-kartinka-arti-8.jpg)
